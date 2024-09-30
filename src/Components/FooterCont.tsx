@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 
-import featherwhite from "../../public/assets/featherwhite.png"
+import featherwhite from "../Images/featherwhite.png"
 import { FaRegCopyright } from "react-icons/fa6";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { MdKeyboardArrowUp } from "react-icons/md";
-import facebook from "../../public/assets/Facebook logo.png"
-import instagram from "../../public/assets/Instagram logo.png"
-import linkedln from "../../public/assets/LinkedIn logo.png"
-import twitter from "../../public/assets/Twitter logo.png"
+import facebook from "../Images/Facebooklogo.png"
+import instagram from "../Images/Instagramlogo.png"
+import linkedln from "../Images/LinkedInlogo.png"
+import twitter from "../Images/Twitterlogo.png"
 
 
 

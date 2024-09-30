@@ -1,7 +1,7 @@
 import React from 'react'
-import Card1 from "../../public/assets/card-sharp (1).png"
-import Card4 from "../../public/assets/card1.png"
-import Card5 from "../../public/assets/card1.png"
+import Card1 from "../Images/card-sharp (1).png"
+import Card4 from "../Images/card1.png"
+import Card5 from "../Images/card1.png"
 import { MdArrowForward } from "react-icons/md"
 
 

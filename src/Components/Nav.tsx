@@ -1,5 +1,5 @@
 import { useState } from "react";
-import featherwing from "../../public/assets/feather-wing.png"
+import featherwing from "../Images/feather-wing.png"
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 
@@ -12,8 +12,8 @@ const Nav= ()=>{
         <img src={featherwing}/>
        <span className=" pt-2 text-[#0C3B2E] font-medium">Feather</span>
       </div>
-      <ul className={` w-full h-screen py-10 transition-all font-medium border-2  pl-7 absolute top-[80px] 
-       text-lg bg-white shadow-xl text-[#28374B] lg:hidden flex flex-col space-y-10 lg:flex-row lg:space-x-5 ${closeMobile ? " left-[-100%]": "left-[0]"} `}>
+      <ul className={` w-full h-screen py-10 transition-all font-medium   pl-7 absolute top-[80px] 
+       text-lg bg-white shadow-2xl text-[#28374B] lg:hidden flex flex-col space-y-10 lg:flex-row lg:space-x-5 ${closeMobile ? " left-[-100%]": "left-[0]"} `}>
         <li className="hover:text-[green] hover:text-xl cursor-pointer">Home</li>
         <li className="hover:text-[green] hover:text-xl cursor-pointer">About us</li>
         <li className="hover:text-[green] hover:text-xl cursor-pointer">Contact us</li>

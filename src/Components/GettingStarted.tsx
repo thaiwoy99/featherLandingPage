@@ -1,7 +1,7 @@
 import React from 'react'
-import Vector1 from "../../public/assets/Vector1.png"
-import Vector2 from "../../public/assets/Vector2.png"
-import Vector3 from "../../public/assets/Vector3.png"
+import Vector1 from "../Images/Vector1.png"
+import Vector2 from "../Images/Vector2.png"
+import Vector3 from "../Images/Vector3.png"
 
 const StartedFeatures =[
   {Img:Vector1,

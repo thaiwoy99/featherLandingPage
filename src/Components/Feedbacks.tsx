@@ -1,7 +1,7 @@
 import React from 'react'
-import Client1 from "../../public/assets/Client1.png"
-import Client2 from "../../public/assets/Client2.png"
-import Client3 from "../../public/assets/Client3.png"
+import Client1 from "../Images/Client1.png"
+import Client2 from "../Images/Client2.png"
+import Client3 from "../Images/Client3.png"
 import { CiLocationOn } from "react-icons/ci";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
