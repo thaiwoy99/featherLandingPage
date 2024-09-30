@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;700;900&display=swap");
+
+body{
+    font-family: Montserrat;
+}
+
+.swiper-pagination{
+ 
+    margin-top: 15px;
+    top:unset !important;
+    left:unset !important;
+    bottom: unset !important;
+    right: unset !important ;
+    position:unset !important
+}
+
+.swiper-pagination-bullet{
+    width:15px;
+    height: 15px;
+    background-color: rgba(12,59,46,1);
+    
+
+}
+
+.swiper-pagination-bullet-active{
+    background-color: rgb(12,59,46);
+}
