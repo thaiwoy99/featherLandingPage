@@ -8,7 +8,7 @@ const Nav= ()=>{
 
   return(
     <nav className=" w-full h-[100px]  lg:flex  bg-white shadow-md justify-between border-b-[green] border-b-2 lg:px-10 items-center z-10 fixed ">
-      <div className="flex  space-x-3 items-center ">
+      <div className="flex  space-x-3 items-center  mt-3 pl-2">
         <img src={featherwing}/>
        <span className=" pt-2 text-[#0C3B2E] font-medium">Feather</span>
       </div>
@@ -33,7 +33,7 @@ const Nav= ()=>{
         <button className="bg-[#0C3B2E] px-10 py-1 text-white hover:bg-white hover:border-2 hover:border-[#0C3B2E] hover:text-[#0C3B2E]" >Log in</button>
       </div>
 
-      <div className="lg:hidden absolute top-5 right-3 ">
+      <div className="lg:hidden absolute top-5 right-3 mt-3 ">
       { closeMobile?       <span className="text-3xl text-[#0C3B2E]">
          <GiHamburgerMenu onClick={()=>{setClosembile(false)}}/>
         </span>:
