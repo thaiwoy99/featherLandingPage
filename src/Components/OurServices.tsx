@@ -1,7 +1,6 @@
 import React from 'react'
 import Swap from "../Images/Swap.png"
-
-import Iphone11sm from "../Images/IPhone11sm.png"
+import Iphone11sm from "../Images/Iphone11sm.png"
 
 
 

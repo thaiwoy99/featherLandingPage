@@ -1,7 +1,7 @@
 import React from 'react'
 import PlayStore from "../Images/PlayStore.png"
 import Appstore from "../Images/Appstore.png"
-import Iphone11sm from "../Images/IPhone11sm.png"
+import Iphone11sm from "../Images/Iphone11sm.png"
 
 const OurApps:React.FC = () => {
   return (

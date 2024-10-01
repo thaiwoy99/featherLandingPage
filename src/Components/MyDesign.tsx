@@ -1,5 +1,5 @@
 import React from 'react'
-import Iphone11sm from "../Images/IPhone11sm.png"
+import Iphone11sm from "../Images/Iphone11sm.png"
 import Card1 from "../Images/card-sharp (1).png"
 import Card2 from "../Images/card-sharp (2).png"
 import Card3 from "../Images/cardsharp.png"
